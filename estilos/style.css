@@ -21,6 +21,7 @@ body {
     background-color: rgb(0, 0, 0);
     scroll-behavior: smooth;
     height: 100vh;
+    user-select: none;
 }
 
 header {
