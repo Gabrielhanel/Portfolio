@@ -22,11 +22,13 @@ body {
     scroll-behavior: smooth;
     height: 100vh;
     user-select: none;
+    max-width: 1000px;
 }
 
 header {
     background-color:(black);
     padding: 20px;
+    max-width: 900px;
 }
 
 .navbar {
@@ -34,7 +36,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px 0px 20px;
-    
 }
 
 .logo {
