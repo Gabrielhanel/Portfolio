@@ -14,11 +14,17 @@
 /*Work Sans*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Bree+Serif&family=Exo:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Mooli&family=Nanum+Gothic+Coding&family=Press+Start+2P&family=Saira:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*DM Mono*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Kanit*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: #050505;
     scroll-behavior: smooth;
     height: 100vh;
     user-select: none;
@@ -35,6 +41,13 @@ body {
     width: 600px;
     text-align: center;
 }
+.linktextosobremim {
+    color: #ecdede;
+    text-decoration: none;
+}
+.linktextosobremim:hover {
+    text-decoration: underline;
+}
 header {
     background-color:(black);
     padding: 20px;
@@ -50,7 +63,9 @@ header {
     white-space: nowrap;
     /*font-style: italic;*/
 }
-
+h3 {
+    font-family: 'DM Mono';
+}
 nav ul {
     list-style: none;
     display: flex;
@@ -71,7 +86,6 @@ nav ul li a {
     font-size: 18px;
     margin: 0 3px;
     font-family: 'Black Ops One';
-    text-shadow: 1px 1px 1px black;
     padding: 11px;
     transition-duration: 0.8s;
     white-space: nowrap;
@@ -106,7 +120,6 @@ nav ul li a:hover {
     transition: 0.6s;
     background-color: darkgray;
     border-radius: 10px 10px;
-    ;
 }
 .menu-toggle:active {
     color: #0a3ba7;
@@ -118,7 +131,7 @@ nav ul li a:hover {
 .menu.show { display: flex; }
 }
 section {
-    color: white;
+    color: #DCE1DB;
     height: auto;
 }
 
@@ -127,7 +140,7 @@ h2 {
     font-family: 'Nanum Gothic Coding';
     font-weight: normal;
     font-size: 26px;
-    color: #0a3ba7;
+    color: #a5a5a5;
     ;
 }
 .myphoto {
@@ -181,7 +194,7 @@ h3 > p, a {
     width: 300px;
 }
 p {
-    font-family: 'Mooli';
+    font-family: 'DM Mono';
     font-size: 16px;
     font-weight: normal;
     padding-left: 30px;
@@ -198,17 +211,27 @@ section > h2, h3, p, a {
     text-align: center;
 }
 .cursostitle{
-    color: #212fcc;
-    text-shadow: 1px 1px 1px black;
+    color: #D3D8D1;
 }
 .certificado {
     text-decoration: none;
+    padding-left: 10px;
 }
 .cursostexto {
-    color: #176CEB;
+    color: #ecdede;
+    font-family: 'Kanit';
 }
 .certificado:hover {
     color: white;
     text-shadow: 1px 1px 1px black;
-    transition-duration: 0.7s;
+    transition-duration: 0.8s;
+    color: rgb(108, 242, 247);
+}
+footer {
+    display: block;
+}
+footer p {
+    color: white;
+    padding-bottom: 35px;
+    padding-top: 15px;
 }
