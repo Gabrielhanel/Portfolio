@@ -7,150 +7,198 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
-    <header>
-        <div class="logo">
-            GABRIEL HANEL
-        </div>
-        <div class="menu-toggle">
-            <span class="textmenu">MENU</span>
-        </div>
-                <nav>
-                    <ul class="menu">
-                        <li>
-                            <a href="#home">
-                                HOME
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#sobremim">
-                                SOBRE MIM
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#projetos">
-                                PROJETOS
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#cursos">
-                                CURSOS
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contateme">
-                                CONTATE-ME
-                            </a>
-                        </li>
-                    </ul>
-                    <script>
-                        document.querySelector('.menu-toggle').addEventListener('click', function() {
-                        document.querySelector('.menu').classList.toggle('show');
-                        });
-                    </script>
-                </nav>
-        </div>
-    </header>
-
-    <section id="home"> 
-        <h2>
-            HOME
-        </h2>
-        <p>
-
-        </p>
-    </section>
-
-    <section id="sobremim">
-        <h2>
-            SOBRE MIM
-        </h2>    
-    </section>
-    
-    <section id="projetos">
-        <h2>
-            PROJETOS
-        </h2>
-    </section>
-
-    <section id="cursos"> 
-        <h2>
-            CURSOS
-        </h2>
-        <br>
-            <h3 class="cursostitle">
-                Ensino Superior
+    <div class="container">
+        <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
+        <header>
+            <div class="logo">
+                GABRIEL HANEL &lt;/&gt;
+            </div>
+            <div class="menu-toggle">
+                <span class="textmenu">MENU</span>
+            </div>
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                                <a href="#home">
+                                    HOME
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#sobremim">
+                                    SOBRE MIM
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#projetos">
+                                    PROJETOS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#habilidades">
+                                    MINHAS HABILIDADES
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#cursos">
+                                    CURSOS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contateme">
+                                    CONTATE-ME
+                                </a>
+                            </li>
+                        </ul>
+                        <script>
+                            document.querySelector('.menu-toggle').addEventListener('click', function() {
+                            document.querySelector('.menu').classList.toggle('show');
+                            });
+                        </script>
+                    </nav>
+            </div>
+        </header>
+        <section id="home">
+            <h2>
+                HOME
+            </h2>
+            <br>
+            <h3>
+                Seja bem vindo ao meu portfólio
             </h3>
-                <p class="cursostexto">
-                    Atualmente curso o segundo semestre do curso de Ciências da Computação na ATITUS Educação de Passo Fundo / RS 
+            <br>
+            <div class="alinhatextosobremim">
+                <p class="textosobremim">
+                    Meu nome é Gabriel, sou um desenvolvedor front end apaixonado por criar experiências ao usuário. Com uma combinação de habilidades já consolidadas e uma vontade incessante de me aprimorar cada vez mais, meu objetivo é transformar ideias em realidade por meio de interfaces intuitivas e adaptáveis nos mais diferentes tamanhos de telas
+                </p></div>
+                <div class="alinhatextosobremim">
+                    <p class="textosobremim">
+                        Atualmente estou em busca de novas oportunidades para expandir meus conhecimentos e adquirir experiências. Sinta-se à vontade para explorar meus trabalhos. Caso tenha alguma dúvida, também poderá entrar em contato comigo na seção
+                        <span>
+                            <a href="#contateme">CONTATE-ME
+                            </a>
+                        </span>.
+                    </p>
+                </div>
+        </section>
+        <section id="sobremim">
+            <h2>
+                SOBRE MIM
+            </h2>
+            <div class="myphotodiv">
+                <img class="myphoto" src="imagens/FA85B0D3-3959-434B-A251-2938E36198DF (1) (1) (2) (1) (1) (1) (1) (2) (1).png" alt="Minha foto">
+            </div>
+            <div class="alinhatextosobremim">
+                <p class="textosobremim">
+                    Atualmente tenho 18 anos, resido na cidade de Tapejara-RS e sou apaixonado por criar interfaces que combinam estética e funcionalidade. Minha jornada no desenvolvimento web há aproximadamente 6 meses atrás, quando fiz um curso de HTML e CSS com o Professor Gustavo Guanabara. Adoro trabalhar com HTML e CSS futuramente pretendo evoluir para alguma linguagem de programação e consequentemente, um framework também. No momento também curso o segundo semestre do curso de Ciências da Computação na ATITUS.
+                </p> </div>
+            <div class="alinhatextosobremim">
+                <p class="textosobremim">
+                    Além de estudar sobre o desenvolvimento em si, também tenho como um dos meus hobbies ler livros de UI/UX, a fim de tentar criar uma boa experiência ao usuário. Também adoro sempre tentar me manter atualizado das noticias sobre as últimas noticias do ramo da tecnologia
                 </p>
-                <p class="cursostexto">
-                    Qualificação em Desenvolvimento de Aplicações Júnior | 400 horas 
-                    <a href="#" class="certificado">
-                        Certificado
-                    </a>
-                </p> 
-                <br>
-            <h3 class="cursostitle">
-                Curso em Vídeo
-            </h3>
-                <p class="cursostexto">
-                    Curso de HTML5 e CSS3 - Módulo 1 | 40 horas 
-                    <a href="#" class="certificado">
-                        Certificado
-                    </a>
+            </div>
+        </section>
+        
+        <section id="habilidades">
+            <h2>
+                MINHAS HABILIDADES
+            </h2>
+            <div class="container2">
+                <img src="imagens/HTML.jpg" alt="HTML">
+                <p>
+                    Tenho um conhecimento intermediário em HTML. Além disso, busco sempre em meus códigos manter uma boa legibilidade, a fim de ter uma estrutura clara e organizada.
                 </p>
-                <p class="cursostexto">
-                    Curso de HTML5 e CSS3 - Módulo 2 | 40 horas 
-                    <a href="#" class="certificado">
-                        Certificado
-                    </a>
+            </div>
+            <div class="container2">
+                <img src="imagens/css.jpg" alt="Linguagem CSS">
+                <p>
+                    Também possuo um conhecimento intermediário em CSS, procurando sempre a criação de interfaces intuitivas e responsivas. 
                 </p>
-                <p class="cursostexto">
-                    Curso de Git e Github | 20 horas 
-                    <a href="#" class="certificado">
-                        Certificado
-                    </a>
+            </div>
+            <div class="container2">
+                <img src="imagens/responsividade.jpg" alt="responsividade">
+                <p>
+                    Possuo um bom conhecimento na parte de responsividade, o ato de adaptar elementos de uma página para diferentes tamanhos de tela.
                 </p>
-    </section>
-
-    <section id="contateme">
-        <h2>
-            CONTATE-ME
-        </h2>
-    <div class="containerCards">
-        <div class="cards">
-            <a href="https://www.instagram.com/gabrielhanel/" target="_blank">
-                <img class="icones" src="imagens/Imagem do WhatsApp de 2024-08-01 à(s) 21.40.24_d407b280.jpg" alt="Instagram">
-            </a>
+            </div>
+        </section>
+        <section id="projetos">
+            <h2>
+                PROJETOS
+            </h2>
+        </section>
+        <section id="cursos">
+            <h2>
+                CURSOS
+            </h2>
+            <br>
+                <h3 class="cursostitle">
+                    Ensino Superior
+                </h3>
+                    <p class="cursostexto">
+                        Atualmente curso o segundo semestre do curso de Ciências da Computação na ATITUS Educação de Passo Fundo / RS
+                    </p>
+                    <p class="cursostexto">
+                        Qualificação em Desenvolvimento de Aplicações Júnior | 400 horas
+                        <a href="#" class="certificado">
+                            Certificado
+                        </a>
+                    </p>
+                    <br>
+                <h3 class="cursostitle">
+                    Curso em Vídeo
+                </h3>
+                    <p class="cursostexto">
+                        Curso de HTML5 e CSS3 - Módulo 1 | 40 horas
+                        <a href="#" class="certificado">
+                            Certificado
+                        </a>
+                    </p>
+                    <p class="cursostexto">
+                        Curso de HTML5 e CSS3 - Módulo 2 | 40 horas
+                        <a href="#" class="certificado">
+                            Certificado
+                        </a>
+                    </p>
+                    <p class="cursostexto">
+                        Curso de Git e Github | 20 horas
+                        <a href="#" class="certificado">
+                            Certificado
+                        </a>
+                    </p>
+        </section>
+        <section id="contateme">
+            <h2>
+                CONTATE-ME
+            </h2>
+        <div class="containerCards">
+            <div class="cards">
+                <a href="https://www.instagram.com/gabrielhanel/" target="_blank">
+                    <img class="icones" src="imagens/instagram.jpg" alt="Instagram">
+                </a>
+            </div>
+            <div class="cards">
+                <a href="http://linkedin.com/in/gabriel-hanel-b3386b2a4" target="_blank">
+                    <img class="icones" src="imagens/linkedinbranco.jpg" alt="Linkedin">
+                </a>
+            </div>
+            <div class="cards">
+                <a href="http://wa.me/+5554996454042" target="_blank">
+                    <img class="icones" src="imagens/whatsapp.png" alt="WhatsApp">
+                </a>
+            </div>
+            <div class="cards">
+                <a href="https://github.com/Gabrielhanel" target="_blank">
+                    <img class="icones" class= "teste"src="imagens/logotipogithub.jpg" alt="Github">
+                </a>
+            </div>
+            <div class="cards">
+                <a href="mailto:ghanel527@gmail.com" target="_blank">
+                    <img src="imagens/email.jpg" alt="" class="icones">
+                </a>
+            </div>
         </div>
-
-        <div class="cards">
-            <a href="http://linkedin.com/in/gabriel-hanel-b3386b2a4" target="_blank">
-                <img class="icones" src="imagens/linkedinbranco.jpg" alt="Linkedin">
-            </a>
-        </div>
-
-        <div class="cards">
-            <a href="http://wa.me/+5554996454042" target="_blank">
-                <img class="icones" src="imagens/whatsapp.png" alt="WhatsApp">
-            </a>
-        </div>
-
-        <div class="cards">
-            <a href="https://github.com/Gabrielhanel" target="_blank">
-                <img class="icones" class= "teste"src="imagens/logotipogithub.jpg" alt="Github">
-            </a>
-        </div>
-
-        <div class="cards">
-            <a href="mailto:ghanel527@gmail.com" target="_blank">
-                <img src="imagens/email.jpg" alt="" class="icones">
-            </a>
-        </div>
-
+        </section>
+        <script src="script.js"></script>
     </div>
-    </section>
-    <script src="script.js"></script>
 </body>
 </html>
