@@ -20,6 +20,9 @@
 /*Kanit*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/*Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -49,13 +52,13 @@ body {
     text-decoration: underline;
 }
 header {
-    background-color:(black);
+    background-color: #050505;
     padding: 20px;
 }
 .logo {
     color: rgba(255, 255, 255, 0.842);
     font-size: 17px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px #050505;
     font-weight: bold;
     font-family: 'Press Start 2P';
     text-align: center;
@@ -65,6 +68,19 @@ header {
 }
 h3 {
     font-family: 'DM Mono';
+}
+.home {
+    padding-top: 0px;
+}
+.imagemenu {
+    width: 35px;
+}
+.textmenu {
+    color: #8b7d7d;
+}
+.textmenu:hover {
+    color: rgb(10, 107, 197);
+    transition: 0.7s;
 }
 nav ul {
     list-style: none;
@@ -109,8 +125,8 @@ nav ul li a:hover {
     justify-content: center;
     cursor: pointer; 
     padding: 10px; 
-    background-color: black; 
-    color: white; 
+    background-color: #050505; 
+    color: rgb(150, 150, 150); 
     text-align: center;
     font-family: "Black Ops One";
     }
@@ -137,11 +153,10 @@ section {
 
 h2 {
     text-align: center;
-    font-family: 'Nanum Gothic Coding';
+    font-family: 'Poppins';
     font-weight: normal;
-    font-size: 26px;
-    color: #a5a5a5;
-    ;
+    font-size: 22px;
+    color: #cfcbcb;
 }
 .myphoto {
     width: 180px;
@@ -183,6 +198,9 @@ h3 > p, a {
     align-items: center;
     justify-content: center;
 }
+.boasvindas {
+    font-size: 17px;
+}
 .container2 img {
     width: 90px;
     margin-right: 7px;
@@ -193,6 +211,47 @@ h3 > p, a {
 .container2 p {
     width: 300px;
 }
+.projetospai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+}
+.projetosfilho {
+    box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.212);
+    border-radius: 15px;
+}
+.projetosfilho > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projetosfilho img {
+    align-items: center;
+    width: 160px;
+    max-width: 130px;
+    padding-right: 20px;
+}
+.linkportfolio {
+    text-decoration: none;
+    font-family: "Work Sans";
+    color: slateblue;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: auto;
+}
+.linkportfolio:hover {
+    display: block;
+    background-color: white;
+    transition: 0.8s;
+    border-radius: 50px;
+    max-width: 500px;
+    width: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: black;
+}
 p {
     font-family: 'DM Mono';
     font-size: 16px;
@@ -200,7 +259,9 @@ p {
     padding-left: 30px;
     padding-right: 30px;
 }
-
+.projetoportfolio {
+    width: 300px;
+}
 .containerCards {
     display: flex;
     justify-content: center;
