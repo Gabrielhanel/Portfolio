@@ -188,7 +188,6 @@ h3 > p, a {
     opacity: 0.7;
     max-width: 60px;
 }
-
 .icones:hover {
     transform: scale(1.1);
     transition-duration: 0.6s;
@@ -212,6 +211,9 @@ h3 > p, a {
 .container2 p {
     width: 300px;
 }
+.tituloprojeto {
+    font-size: 15px;
+}
 .projetospai {
     display: flex;
     align-items: center;
@@ -230,7 +232,7 @@ h3 > p, a {
 }
 .projetosfilho img {
     align-items: center;
-    width: 160px;
+    width: 90px;
     max-width: 130px;
     padding-right: 20px;
 }
