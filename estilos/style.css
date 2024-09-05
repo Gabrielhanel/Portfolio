@@ -40,6 +40,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .textosobremim{
     width: 600px;
     text-align: center;
@@ -76,10 +77,9 @@ h3 {
     width: 35px;
 }
 .textmenu {
-    color: #8b7d7d;
+    color: white;
 }
 .textmenu:hover {
-    color: rgb(10, 107, 197);
     transition: 0.7s;
 }
 nav ul {
@@ -132,10 +132,11 @@ nav ul li a:hover {
     }
 
 .menu-toggle:hover {
-    color: #0468fdee;
+    color: #ffffffee;
     transition: 0.6s;
     background-color: darkgray;
     border-radius: 10px 10px;
+    background-color: #004db3;
 }
 .menu-toggle:active {
     color: #0a3ba7;
@@ -251,6 +252,7 @@ h3 > p, a {
     padding-left: 0px;
     padding-right: 0px;
     color: black;
+
 }
 p {
     font-family: 'DM Mono';
