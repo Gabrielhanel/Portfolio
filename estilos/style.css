@@ -95,6 +95,15 @@ header {
     color: #0a3ba7;
 }
 
+/*@media (max-width: 1180px) {
+    .menu { display: none; flex-direction: column; }
+    .menu-toggle { display: block;}
+    .menu.show { display: flex; height: 100%; padding-bottom: 200px; margin-bottom: 800px;}
+.menu-toggle:active {
+    color: #0a3ba7;
+}
+*/
+
 /*Menu -> titulo*/
 .textmenu {
     color: white;
