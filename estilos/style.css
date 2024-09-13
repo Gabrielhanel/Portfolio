@@ -63,8 +63,14 @@ h2 {
 
 /*Cabeçalho*/
 header {
-    background-color: #050505;
+    background-color: transparent;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; /* Garante que o menu fique acima de outros elementos */
+    background-color: #050505;
 }
 
 /*Menu -> div + responsividade do menu */
@@ -88,21 +94,12 @@ header {
 }
 @media (max-width: 1180px) {
 .menu { display: none; flex-direction: column; }
-.menu-toggle { display: block; }
-.menu.show { display: flex; }
+.menu-toggle { display: block;}
+.menu.show { display: flex; height: 100%; padding-bottom: 500px; border-bottom: 600px;}
 }
 .menu-toggle:active {
     color: #0a3ba7;
 }
-
-/*@media (max-width: 1180px) {
-    .menu { display: none; flex-direction: column; }
-    .menu-toggle { display: block;}
-    .menu.show { display: flex; height: 100%; padding-bottom: 200px; margin-bottom: 800px;}
-.menu-toggle:active {
-    color: #0a3ba7;
-}
-*/
 
 /*Menu -> titulo*/
 .textmenu {
@@ -146,6 +143,9 @@ nav ul li a:hover {
 }
 
 /*Seções - PADRÃO*/
+main {
+    padding-top: 100px;
+}
 section {
     color: #DCE1DB;
     height: auto;
